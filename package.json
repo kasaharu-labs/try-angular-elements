@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "prettier": "prettier --write './**/*.{ts,html,scss}'",
+    "prettier:check": "prettier --check './**/*.{ts,html,scss}'"
   },
   "private": true,
   "dependencies": {
